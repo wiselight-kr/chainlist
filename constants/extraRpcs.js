@@ -2442,6 +2442,6 @@ export const extraRpcs = {
   }
 };
 
-const allExtraRpcs = mergeDeep(wiselightNodesRpcs, extraRpcs);
+//const allExtraRpcs = mergeDeep(wiselightNodesRpcs, extraRpcs);
 
-export default allExtraRpcs;
+export default wiselightNodesRpcs;
