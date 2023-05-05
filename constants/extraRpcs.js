@@ -1,6 +1,6 @@
 import { mergeDeep } from "../utils/fetch.js";
 
-import { llamaNodesRpcs } from "./llamaNodesRpcs.js";
+import { wiselightNodesRpcs } from "./wiselightNodesRpcs.js";
 
 const privacyStatement = {
   "48Club":
@@ -2442,6 +2442,6 @@ export const extraRpcs = {
   }
 };
 
-const allExtraRpcs = mergeDeep(llamaNodesRpcs, extraRpcs);
+const allExtraRpcs = mergeDeep(wiselightNodesRpcs, extraRpcs);
 
 export default allExtraRpcs;
