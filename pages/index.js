@@ -67,15 +67,6 @@ function Home({ chains }) {
         <React.Suspense fallback={<div className="h-screen"></div>}>
           <div className="dark:text-[#B3B3B3] text-black grid gap-5 grid-cols-1 place-content-between pb-4 sm:pb-10 sm:grid-cols-[repeat(auto-fit,_calc(50%_-_15px))] 3xl:grid-cols-[repeat(auto-fit,_calc(33%_-_20px))] isolate grid-flow-dense">
             {filteredChains.map((chain, idx) => {
-              if (idx === 2) {
-                return (
-                  <>
-                    <AdBanner timer={20000} startTransition={false} showControls={false} />
-                    <Chain chain={chain} key={idx} lang="en" />
-                  </>
-                )
-              }
-
               return <Chain chain={chain} key={idx} lang="en" />
             })}
           </div>
