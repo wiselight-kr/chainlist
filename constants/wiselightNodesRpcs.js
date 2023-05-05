@@ -8,12 +8,22 @@ export const wiselightNodesRpcs = {
         tracking: 'none',
         trackingDetails: privacyStatement,
       },
+      {
+        url: "wss://node.wiselight.kr/1/ws",
+        tracking: 'none',
+        trackingDetails: privacyStatement,
+      },
     ],
   },
   10: {
     rpcs: [
       {
         url: "https://node.wiselight.kr/10/rpc",
+        tracking: 'none',
+        trackingDetails: privacyStatement,
+      },
+      {
+        url: "wss://node.wiselight.kr/10/ws",
         tracking: 'none',
         trackingDetails: privacyStatement,
       },
@@ -26,6 +36,11 @@ export const wiselightNodesRpcs = {
         tracking: 'none',
         trackingDetails: privacyStatement,
       },
+      {
+        url: "wss://node.wiselight.kr/56/ws",
+        tracking: 'none',
+        trackingDetails: privacyStatement,
+      },
     ],
   },
   137: {
@@ -35,12 +50,22 @@ export const wiselightNodesRpcs = {
         tracking: 'none',
         trackingDetails: privacyStatement,
       },
+      {
+        url: "wss://node.wiselight.kr/137/ws",
+        tracking: 'none',
+        trackingDetails: privacyStatement,
+      },
     ],
   },
   42161: {
     rpcs: [
       {
         url: "https://node.wiselight.kr/42161/rpc",
+        tracking: 'none',
+        trackingDetails: privacyStatement,
+      },
+      {
+        url: "wss://node.wiselight.kr/42161/ws",
         tracking: 'none',
         trackingDetails: privacyStatement,
       },
