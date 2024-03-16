@@ -99,7 +99,7 @@ export async function generateChainData(){
     const chains = await fetcher("https://chainid.network/chains.json");
     const chainTvls = await fetcher("https://api.llama.fi/chains");
     const whitelistChains = ["Ethereum Mainnet", "BNB Smart Chain Mainnet", "Polygon Mainnet", "Avalanche C-Chain",
-        "OP Mainnet", "Arbitrum One"]
+        "OP Mainnet", "Arbitrum One", "Base"]
   
     const sortedChains = chains
       .filter((c) => whitelistChains.includes(c.name))

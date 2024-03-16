@@ -37,6 +37,15 @@ export const wiselightNodesRpcs = {
       },
     ],
   },
+  8453: {
+    rpcs: [
+      {
+        url: "https://node.wiselight.kr/demo/8453/rpc",
+        tracking: 'none',
+        trackingDetails: privacyStatement,
+      },
+    ],
+  },
   42161: {
     rpcs: [
       {
